@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head><title></title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <a href="home.html"><button type="button" class="btn btn-outline-primary" style="margin:auto;" >logout</button></a>
+   <br><br>
+    <div class="input-group" style="width:70%">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <form class="form-inline my-2 my-lg-0" action="">
+          {% csrf_token %}
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" >
+    </form>
+    </div><br>
+    <div class="card">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Toyota Etios</h5>
+          <div class="row">
+          <div class="col-4">
+             <img  src="{% static 'mysite/images/Altok10.png' %}"  class="card-img-top" alt="...">
+        </div>
+        <div class="col-4">
+          <p class="card-text">Includes Toll, State Tax & GST <br>Top Rated Cabs & Chauffeurs</p>
+          </div>
+          <div class="col-4">
+          <p class="card-text"><a href="">show price</a></p>
+          </div>
+          <a href="/reservation.html" class="btn btn-primary">select</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="card-body">
+        <h5 class="card-title">Ertiga</h5>
+        <div class="row">
+        <div class="col-4">
+          <img  src="{% static 'mysite/images/baleno (2).png' %}"  class="card-img-top" alt="...">
+      </div>
+      <div class="col-4">
+        <p class="card-text">Includes Toll, State Tax & GST <br>Top Rated Cabs & Chauffeurs</p>
+        </div>
+        <div class="col-4">
+        <p class="card-text"><a href="">show price</a></p>
+        </div>
+         <a href="/reservation.html" class="btn btn-primary">select</a>
+        </div>
+      </div>
+    </div>
+      <br>
+      <div class="card-body">
+        <h5 class="card-title">Toyota Innova Crysta</h5>
+        <div class="row">
+        <div class="col-4">
+          <img  src="{% static 'mysite/images/CiazWEBPAGE (1).png' %}"  class="card-img-top" alt="...">
+      </div>
+      <div class="col-4">
+        <p class="card-text">Includes Toll, State Tax & GST <br>Top Rated Cabs & Chauffeurs</p>
+        </div>
+        <div class="col-4">
+        <p class="card-text"><a href="">show price</a></p>
+        </div>
+        <a href="/reservation.html" class="btn btn-primary">select</a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <p class="text-center">pre <a href="/home2"><</a> &nbsp <a href="/home1"> ></a> Next</p>
+    <br>
+    <div style="background-color:yellow">
+    <div class="container" >
+        <div class="row">
+          <div class="col-4">
+          <a href="#"><p>List your Rental</p><br></a>
+          <a href="#"><p>Sitemap</p><br></a>
+          <a href="#"><p>Accessibility</p><br></a>
+          <a href="#"><p>Careers</p><br></a>
+        </div>
+        <div class="col-4">
+            <a href="#"><p>About us</p><br></a>
+            <a href="#"><p>Contact</p><br></a>
+            <a href="#"><p>My.TraditionalRentals</p><br></a>
+        </div>
+        <div class="col-4">
+            <a href="#"><p>Terms of Services</p><br></a>
+            <a href="#"><p>Privary policy</p><br></a>
+            <a href="#"><p>Avoid Scams & Fraud/p><br></p>
+                <a href="#"> <p>Notice  of Collection</p><br></a>
+                <a href="#"> <p>Do Not Sell My Personal information</p></a>
+         </div>
+        </div>
+        </div>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
